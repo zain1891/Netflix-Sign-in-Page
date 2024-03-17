@@ -1,6 +1,5 @@
 body{
-    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/c9fbccf7-aa73-4c4e-a129-0349c8ef655b/PK-en-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg);
-
+     background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/c9fbccf7-aa73-4c4e-a129-0349c8ef655b/PK-en-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg);
 }
 .netflixicon{
     height: 40px;
@@ -41,4 +40,49 @@ body{
 p{
     text-align: left;
     color: #737373;
+}
+.text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: White;
+    font-size: 25px;
+    margin-top: 100px;
+}
+.pr{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+.inp{
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+}
+.inpu{
+    height: 20px;
+   width: 250px;
+   border-radius: 5px;
+   border: solid 1px white;
+   background-color: #333333bd;
+   padding: 10px;
+   color: rgb(255, 255, 255);
+   padding: 20px 16px 4px;
+   padding-bottom: 10px
+}
+.but{
+    padding-top: 15px;
+    width: 150px;
+    color: white;
+    background-color: #e50914;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 21px;
+    padding-bottom: 11px;
+}
+sb{
+    color: white;
 }
